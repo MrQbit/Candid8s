@@ -1,8 +1,8 @@
 //
-//  UserMK.swift
-//  Employder
+//  AppDelegate.swift
+//  Candid8s
 //
-//  Created by Serov Dmitry on 21.10.22.
+//  Created by Martin Ausilio
 //
 
 import MessageKit

@@ -1,8 +1,8 @@
 //
-//  SceneDelegate.swift
-//  Employder
+//  AppDelegate.swift
+//  Candid8s
 //
-//  Created by Serov Dmitry on 08.08.22.
+//  Created by Martin Ausilio
 //
 
 import UIKit

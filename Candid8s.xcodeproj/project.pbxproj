@@ -70,7 +70,7 @@
 /* Begin PBXFileReference section */
 		0A126B5628C0E28000B7A2A3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		0A22E4D828FCAD03005C603D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		0A2ADC9B28A141DC00F3F2BA /* Employder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Employder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2ADC9B28A141DC00F3F2BA /* Candid8s.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Candid8s.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2ADC9E28A141DC00F3F2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A2ADCA028A141DC00F3F2BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A2ADCA228A141DC00F3F2BA /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		0A2ADC9228A141DC00F3F2BA = {
 			isa = PBXGroup;
 			children = (
-				0A2ADC9D28A141DC00F3F2BA /* Employder */,
+				0A2ADC9D28A141DC00F3F2BA /* Candid8s */,
 				0A2ADC9C28A141DC00F3F2BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,12 +164,12 @@
 		0A2ADC9C28A141DC00F3F2BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A2ADC9B28A141DC00F3F2BA /* Employder.app */,
+				0A2ADC9B28A141DC00F3F2BA /* Candid8s.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A2ADC9D28A141DC00F3F2BA /* Employder */ = {
+		0A2ADC9D28A141DC00F3F2BA /* Candid8s */ = {
 			isa = PBXGroup;
 			children = (
 				0AEC26B829225A0C00D9D519 /* Application */,
@@ -181,7 +181,7 @@
 				0A52568E28C686160064AB6C /* Helpers */,
 				0AEC26B929225A3500D9D519 /* Resources */,
 			);
-			path = Employder;
+			path = Candid8s;
 			sourceTree = "<group>";
 		};
 		0A51CA4728A2AAFD00ECB8FC /* UIKit */ = {
@@ -315,9 +315,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A2ADC9A28A141DC00F3F2BA /* Employder */ = {
+		0A2ADC9A28A141DC00F3F2BA /* Candid8s */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A2ADCAF28A141DF00F3F2BA /* Build configuration list for PBXNativeTarget "Employder" */;
+			buildConfigurationList = 0A2ADCAF28A141DF00F3F2BA /* Build configuration list for PBXNativeTarget "Candid8s" */;
 			buildPhases = (
 				0A2ADC9728A141DC00F3F2BA /* Sources */,
 				0A9A55BA29D2DE3A0055C6F4 /* ShellScript */,
@@ -328,7 +328,7 @@
 			);
 			dependencies = (
 			);
-			name = Employder;
+			name = Candid8s;
 			packageProductDependencies = (
 				0A126B5028C0D16100B7A2A3 /* FirebaseAnalytics */,
 				0A126B5428C0D16100B7A2A3 /* FirebaseAuth */,
@@ -339,7 +339,7 @@
 				0A22E4D628FCAC60005C603D /* MessageKit */,
 			);
 			productName = Employder;
-			productReference = 0A2ADC9B28A141DC00F3F2BA /* Employder.app */;
+			productReference = 0A2ADC9B28A141DC00F3F2BA /* Candid8s.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -350,14 +350,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					0A2ADC9A28A141DC00F3F2BA = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 0A2ADC9628A141DC00F3F2BA /* Build configuration list for PBXProject "Employder" */;
+			buildConfigurationList = 0A2ADC9628A141DC00F3F2BA /* Build configuration list for PBXProject "Candid8s" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -376,7 +376,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A2ADC9A28A141DC00F3F2BA /* Employder */,
+				0A2ADC9A28A141DC00F3F2BA /* Candid8s */,
 			);
 		};
 /* End PBXProject section */
@@ -489,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -521,6 +522,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -549,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -581,6 +584,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -607,9 +611,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 2X8M5L8W2W;
+				DEVELOPMENT_TEAM = 9KQBNRDJU5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Employder/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -619,7 +624,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SerovDev.Employder;
+				PRODUCT_BUNDLE_IDENTIFIER = tycho.candid8s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -638,9 +643,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 2X8M5L8W2W;
+				DEVELOPMENT_TEAM = 9KQBNRDJU5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Employder/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -650,7 +656,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SerovDev.Employder;
+				PRODUCT_BUNDLE_IDENTIFIER = tycho.candid8s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -664,7 +670,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A2ADC9628A141DC00F3F2BA /* Build configuration list for PBXProject "Employder" */ = {
+		0A2ADC9628A141DC00F3F2BA /* Build configuration list for PBXProject "Candid8s" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A2ADCAD28A141DF00F3F2BA /* Debug */,
@@ -673,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A2ADCAF28A141DF00F3F2BA /* Build configuration list for PBXNativeTarget "Employder" */ = {
+		0A2ADCAF28A141DF00F3F2BA /* Build configuration list for PBXNativeTarget "Candid8s" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A2ADCB028A141DF00F3F2BA /* Debug */,

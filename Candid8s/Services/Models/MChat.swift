@@ -1,10 +1,9 @@
 //
-//  MChat.swift
-//  Employder
+//  AppDelegate.swift
+//  Candid8s
 //
-//  Created by Serov Dmitry on 30.08.22.
+//  Created by Martin Ausilio
 //
-
 import UIKit
 import FirebaseFirestore
 
